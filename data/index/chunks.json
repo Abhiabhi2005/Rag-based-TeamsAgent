@@ -1,0 +1,74 @@
+[
+  {
+    "page_content": "Meeting Notes: Project Kickoff \u2014 Atlas Launch\nDate: September 20, 2026 | Attendees: R. Chen (PM), S. Patel (Eng Lead), M. Osei (Design), J. Kowalski\n(Marketing)\nOverview\nThis meeting kicked off the Atlas Launch project, a new customer-facing dashboard for enterprise\naccounts. R. Chen presented the initial project charter and timeline.\nRoles & Ownership\nS. Patel will lead engineering and own the technical architecture decisions. M. Osei will lead design and be",
+    "metadata": {
+      "source": "01_project_kickoff.pdf"
+    }
+  },
+  {
+    "page_content": "responsible for the UI/UX prototypes. J. Kowalski will own go-to-market planning and customer\ncommunications.\nBudget\nThe initial budget approved for Q3 was $180,000, covering engineering contractor costs, design tooling\nlicenses, and a small marketing pilot spend. R. Chen noted this figure would be revisited once the\nengineering estimate was finalized.\nTimeline\nTarget launch date discussed was November 15, 2026. S. Patel flagged this as ambitious given the",
+    "metadata": {
+      "source": "01_project_kickoff.pdf"
+    }
+  },
+  {
+    "page_content": "current team size and asked for a buffer to be considered in future planning.\nAction Items\nS. Patel: draft technical architecture doc by Sept 27. M. Osei: deliver first UI wireframes by Oct 3. J.\nKowalski: prepare a customer messaging outline by Oct 5.",
+    "metadata": {
+      "source": "01_project_kickoff.pdf"
+    }
+  },
+  {
+    "page_content": "Meeting Notes: Sprint Planning \u2014 Atlas Launch\nDate: October 1, 2026 | Attendees: R. Chen (PM), S. Patel (Eng Lead), T. Nguyen (Eng), M. Osei\n(Design)\nOverview\nTeam reviewed the architecture doc submitted by S. Patel and broke down work into two-week sprints. T.\nNguyen joined the engineering team this week as a backend developer.\nBudget Update\nS. Patel presented a revised engineering estimate. Given the added backend complexity for multi-tenant",
+    "metadata": {
+      "source": "02_sprint_planning.pdf"
+    }
+  },
+  {
+    "page_content": "data isolation, the Q3 budget was increased from $180,000 to $210,000, approved by R. Chen pending\nfinance sign-off.\nSprint Plan\nSprint 1 (Oct 1\u201314): core dashboard layout, authentication flow. Sprint 2 (Oct 15\u201328): data visualization\nwidgets, API integration. Sprint 3 (Oct 29\u2013Nov 11): polish, QA, and launch readiness review.\nRisks\nS. Patel raised a concern that the November 15 launch date is at risk if QA surfaces major issues during",
+    "metadata": {
+      "source": "02_sprint_planning.pdf"
+    }
+  },
+  {
+    "page_content": "Sprint 3, since there is currently no buffer built into the schedule.\nAction Items\nT. Nguyen: set up CI/CD pipeline by Oct 8. M. Osei: finalize wireframes into high-fidelity mockups by Oct\n10. R. Chen: confirm budget increase with finance by Oct 7.",
+    "metadata": {
+      "source": "02_sprint_planning.pdf"
+    }
+  },
+  {
+    "page_content": "Meeting Notes: Client Check-in Call \u2014 Atlas Launch\nDate: October 8, 2026 | Attendees: R. Chen (PM), J. Kowalski (Marketing), client: D. Alvarez (Northwind\nCorp)\nOverview\nCheck-in call with Northwind Corp, the pilot enterprise customer for the Atlas dashboard. D. Alvarez\nshared feedback on the wireframes shared last week and raised a scheduling concern.\nClient Feedback\nD. Alvarez liked the proposed data visualization widgets but requested an additional export-to-CSV",
+    "metadata": {
+      "source": "03_client_call.pdf"
+    }
+  },
+  {
+    "page_content": "feature, which was not in the original scope. J. Kowalski agreed to log this as a fast-follow request rather\nthan adding it to the current sprint.\nTimeline Change\nDue to the added QA buffer S. Patel requested in the Oct 1 sprint planning meeting, and to accommodate\nthe client's own internal rollout schedule, the launch date was moved from November 15 to November\n22, 2026. D. Alvarez confirmed this works well for Northwind's side.\nAction Items",
+    "metadata": {
+      "source": "03_client_call.pdf"
+    }
+  },
+  {
+    "page_content": "Action Items\nJ. Kowalski: update the customer-facing timeline and messaging outline to reflect Nov 22. R. Chen: notify\nthe engineering team of the one-week schedule shift. J. Kowalski: log CSV export request as a post-launch\nfast-follow item.",
+    "metadata": {
+      "source": "03_client_call.pdf"
+    }
+  },
+  {
+    "page_content": "Reference Doc: Atlas Dashboard \u2014 Product Overview\n& FAQ\nLast updated: September 25, 2026 | Owner: M. Osei (Design)\nWhat is Atlas?\nAtlas is a customer-facing analytics dashboard built for enterprise accounts. It provides real-time usage\nmetrics, custom report widgets, and role-based access control for account admins.\nCore Features\nReal-time usage dashboard with configurable widgets. Role-based access (Admin, Editor, Viewer). Single",
+    "metadata": {
+      "source": "04_product_reference.pdf"
+    }
+  },
+  {
+    "page_content": "sign-on (SSO) support for enterprise identity providers. Multi-tenant data isolation so each customer's data\nis fully separated.\nFrequently Asked Questions\nQ: Which browsers are supported? A: Atlas supports the latest two versions of Chrome, Edge, and\nFirefox.\nQ: Is there a mobile app? A: Not at launch. A mobile-responsive web view is planned, but a native mobile\napp is not currently on the roadmap.",
+    "metadata": {
+      "source": "04_product_reference.pdf"
+    }
+  },
+  {
+    "page_content": "app is not currently on the roadmap.\nQ: How is data refreshed? A: Dashboard metrics refresh every 15 minutes; a real-time streaming option\nis being evaluated for a future release.",
+    "metadata": {
+      "source": "04_product_reference.pdf"
+    }
+  }
+]
